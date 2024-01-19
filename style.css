@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -51,10 +53,11 @@ ul {
 button {
     color: #F9FAF8;
     background-color: #3882F6;
-    padding: 8px 24px;
+    padding: 8px 32px;
     font-weight: bold;
     font-size: 16px;
     border-radius: 8px;
+    border: 0;
 }
 
 .content {
@@ -87,7 +90,7 @@ button {
 
 h2 {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 900;
     color: #1F2937;
     margin: 64px 0;
 }
@@ -123,13 +126,53 @@ h2 {
 
 .quote p{
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 300;
     font-style: italic;
     color: #1F2837;
 }
 
-h4 {
+.quote h4 {
     text-align: end;
     margin-right: 32px;
-    font-size: 22px;
+    font-size: 24px;
 }
+
+.fourth-section, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section {
+    padding: 100px 0;
+}
+
+.action-box {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    background-color: #3882F6;
+    padding: 60px 160px; 
+    color: white;
+    border-radius: 8px;
+}
+
+.action-box p {
+    font-weight: 100;
+}
+
+.action-box h4 {
+    font-size: 24px;
+}
+
+.action-box button {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 40px 0;
+    color: white;
+    font-weight: 300;
+}
+
