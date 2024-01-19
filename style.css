@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
 }
 
-h1, h3, p, ul {
+h1, h3, p, ul, h4 {
     margin: 0;
 }
 
@@ -113,3 +113,23 @@ h2 {
     gap: 8px;
 }
 
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 120px 350px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2837;
+}
+
+h4 {
+    text-align: end;
+    margin-right: 32px;
+    font-size: 22px;
+}
