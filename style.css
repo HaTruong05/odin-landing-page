@@ -11,18 +11,24 @@ h1, h3, p, ul, h4 {
     margin: 0;
 }
 
-.first-section {
+.first-section, .footer {
     background-color: #1F2937;
+}
+
+.first-section {
     padding: 16px 200px;
 }
 
-.header, .content, ul, .img-placeholder {
+.header, .content, ul, .img-placeholder, .container, .item, .third-section, .fourth-section, .action-box, .footer {
     display: flex;
+}
+
+.header, .content, .img-placeholder, .third-section, .fourth-section, .action-box {
+    align-items: center;
 }
 
 .header {
     justify-content: space-between;
-    align-items: center;
 }
 
 .left-content h1 {
@@ -64,13 +70,11 @@ button {
     padding: 112px 0;
     gap: 64px;
     justify-content: space-between;
-    align-items: center;
 }
 
 .img-placeholder {
     background-color: #6D747D;
     justify-content: center;
-    align-items: center;
     flex-grow: 1;
     height: 240px;
 }
@@ -103,23 +107,19 @@ h2 {
 }
 
 .container {
-    display: flex;
     justify-content: center;
     gap: 48px;
 }
 
 .item {
     max-width: 175px;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
 }
 
 .third-section {
-    display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #E5E7EB;
     padding: 120px 350px;
 }
@@ -138,9 +138,7 @@ h2 {
 }
 
 .fourth-section, .footer {
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .fourth-section {
@@ -148,8 +146,6 @@ h2 {
 }
 
 .action-box {
-    display: flex;
-    align-items: center;
     gap: 160px;
     background-color: #3882F6;
     padding: 60px 160px; 
@@ -170,7 +166,6 @@ h2 {
 }
 
 .footer {
-    background-color: #1F2937;
     padding: 40px 0;
     color: white;
     font-weight: 300;
